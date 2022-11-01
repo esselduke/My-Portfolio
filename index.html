@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duke Essel - Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/839fff91aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+  </head>
+
+  <body>
+    <div class="sideMenu" id="sidebar">
+      <div class="hamburgerMenuMainContainer slideHamburger slideHamburgerMargin" onclick="toggleMenu()">
+        <div>
+          <div class="bar firsBar"></div>
+          <div class="bar secondBar"></div>
+          <div class="bar thirdBar"></div>
+        </div>
+      </div>
+
+      <ul>
+        <li ><a onclick="sideMenuVan()" class="aa" href="#topSection">ABOUT</a></li>
+        <li><a onclick="sideMenuVan()" class="aa" href="#skillSection">SKILL</a></li>
+        <li><a onclick="sideMenuVan()" class="aa" href="#portfolioSection">PORTFOLIO</a></li>
+        <li><a onclick="sideMenuVan()" class="aa" href="#contactSection">CONTACT</a></li>
+      </ul>
+    </div>
+    <section id="topSection">
+      <nav>
+        <ul>
+          <li class="navLogo">
+            <h1>DUKE <span>ESSEL</span></h1>
+          </li>
+          <!-- HAMBURGER ICON -->
+          <li>
+            <div class="hamburgerMenuMainContainer" onclick="toggleMenu()">
+              <div>
+                <div class="bar firsBar"></div>
+                <div class="bar secondBar"></div>
+                <div class="bar thirdBar"></div>
+              </div>
+            </div>
+          </li>
+          <!-- END OF HAMBURGER -->
+          <li class="  displayNone">
+            <a class="a" href="#topSection">ABOUT</a>
+          </li>
+          <li class="  displayNone">
+            <a class="a" href="#skillSection">SKILL</a>
+          </li>
+          <li class="  displayNone">
+            <a class="a" href="#portfolioSection">PORTFOLIO</a>
+          </li>
+          <li class="  displayNone">
+            <a class="a" href="#contactSection">CONTACT</a>
+          </li>
+          <li class="removeFromIpadView displayNone">
+            <a class="resumeLinkColor a" href="#topSection">RESUME</a>
+          </li>
+          <li class="removeFromIpadView displayNone">
+            <i class="linkedinLogo fa-brands fa-linkedin fa-2x"></i>
+          </li>
+          <li class="removeFromIpadView displayNone">
+            <i class="gitLogo fa-brands fa-github fa-2x"></i>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="topContainer">
+        <div class="bigAboutText">
+          <h1>
+            <button>A</button><button>B</button><button>O</button
+            ><button>U</button><button>T</button>
+          </h1>
+        </div>
+        <div class="introParagraphMainContainer">
+          <div class="introParagraphContainer">
+            <h2>
+              <span
+                ><button>D</button><button>U</button><button>K</button
+                ><button>E</button> <button>E</button><button>S</button
+                ><button>S</button><button>E</button><button>L</button></span
+              >
+              - Front End Web Developer.
+            </h2>
+            <p>
+            An enthusiastic, dedicated quick learner, self-disciplined, responsible, well-organized, 
+            proactive, and self-motivated young individual with a sense of team work. A front-end Web Developer 
+            and an ex-customer service personnel (New York department of labor (DOL)).
+            </p>
+          </div>
+
+          <div class="secondIntroParagraphContainer">
+            <div class="buttonOuterContainer">
+              <i
+                class="animatedArrowForDownloadBtn fa-sharp fa-solid fa-arrow-down fa-2x"
+              ></i>
+              <a href="file/resume.pdf" download="Resume">
+                <div class="button shadow">DOWNLOAD RESUME</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="fontAwsomeContainer">
+          <a href="#portfolioSection"
+            ><i class="fa-solid fa-angles-down fa-2x"></i
+          ></a>
+        </div>
+        <div class="toTheTopBtnContainer">
+          <i class="fa-solid fa-angles-up fa-2x"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="skillSection">
+      <div class="skillHeadingDiv">
+        <h1 class="skillHeading">SKILLS</h1>
+      </div>
+      <div class="underlineDiv"></div>
+      <div class="divContHex">
+        <div class="hex one">
+          <div class="hexStraight">
+            <img class="faIndex" src="images/img/responsive-design-for-modern-monitors-pngrepo-com.png" alt="">
+          </div>
+          <div class="skillContent">
+            <h2>Responsive</h2>
+            <p>My prime concern is creating web pages that look good on all devices!.</p>
+          </div>
+        </div>
+        <div class="hex two">
+          <div class="hexStraight">
+            <img class="faIndex" src="images/img/businessman-running-fast-with-suitcase-in-right-hand-pngrepo-com.png" alt="">
+          </div>
+          <div class="skillContent">
+            <h2>Fast</h2>
+            <p>Quick load times and lag-free interaction.</p>
+          </div>
+        </div>
+        <div class="hex three">
+          <div class="hexStraight">
+            <img class="faIndex" src="images/img/open-website-window-with-arrow-to-the-left-pngrepo-com.png" alt="">
+          </div>
+          <div class="skillContent">
+            <h2>Dynamic</h2>
+            <p>The design of websites need not be stagnant.</p>
+          </div>
+        </div>
+        <div class="hex four">
+          <div class="hexStraight">
+            <img class="faIndex" src="images/img/user-pngrepo-com.png" alt="">
+          </div>
+          <div class="skillContent">
+            <h2>Usability</h2>
+            <p>Strong preference for user-friendly, intuitive UX/UI.</p>
+          </div>
+        </div>
+      </div>
+      <!-- DIVS CONTAINING LOADERS -->
+      <div class="skillMain">
+        <div class="skillPercenages">
+          <!-- LOADERS -->
+          <div class="entireWidth">
+            <div class="HTMLLoader">
+              <div class="innerLoader">
+                <i class="fw fa-brands fa-html5"></i>
+                <p>HTML</p>
+              </div>
+            </div>
+          </div>
+          <div class="entireWidth">
+            <div class="cssLoader">
+              <div class="innerLoader">
+                <i class="fw fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="entireWidth">
+            <div class="javascriptLoader">
+              <div class="innerLoader">
+                <i class="fw fa-brands fa-square-js"></i>
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="entireWidth">
+            <div class="jQueryLoader">
+              <div class="innerLoader">
+                <i class="fw fa-brands fa-css3"></i>
+                <p>jQuery</p>
+              </div>
+            </div>
+          </div>
+          <div class="entireWidth">
+            <div class="bootstrapLoader">
+              <div class="innerLoader">
+                <i class="fw fa-brands fa-bootstrap"></i>
+                <p>Bootstrap</p>
+              </div>
+            </div>
+          </div>
+          <div class="entireWidth">
+            <div class="nodejsLoader">
+              <div class="innerLoader">
+                <i class="fw fa-brands fa-node"></i>
+                <p>Node.js</p>
+              </div>
+            </div>
+          </div>
+          <div class="entireWidth">
+            <div class="reactLoader">
+              <div class="innerLoader">
+                <i class="fw fa-brands fa-react"></i>
+                <p>React</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolioSection">
+      <div class="headerDiv">
+        <h1>PORTFOLIO</h1>
+        <div class="underlineDiv"></div>
+      </div>
+
+      <div class="projectsMainDivGrid">
+        <div class="projectContentDiv">
+          <h3>LCS (initial)</h3>
+          <div>
+            <img class="img shadow" src="images/img/lessek.png" alt="img" />
+          </div>
+          <p>
+            I created this page using my layout and organization skills.
+            <!-- <br> TECHNOLOGY : HTML, CSS, JavaScript. -->
+          </p>
+          <div class="techList">TECHNOLOGY : HTML, CSS, JavaScript.</div>
+          <div class="btnLive">
+            <i class="faw fa-solid fa-magnifying-glass"></i></i>LIVE
+          </div>
+        </div>
+        <div class="projectContentDiv">
+          <h3>MKD SHIPPING</h3>
+          <div>
+            <img class="img shadow" src="images/img/shipping.png" alt="img" />
+          </div>
+          <p>
+            A website for tracking shipment, viewing services of company and show content of account by loging in. 
+          </p>
+          <div class="techList">TECHNOLOGY : HTML, CSS, JavaScript.</div>
+          <div class="btnLive">
+            <i class="faw fa-solid fa-magnifying-glass"></i></i>LIVE
+          </div>
+        </div>
+        <div class="projectContentDiv">
+          <h3>Ant Cyber Site</h3>
+          <div>
+            <img class="img shadow" src="images/img/antcyb.png" alt="img" />
+          </div>
+          <p>
+            I used HTML and CSS to reproduce the interface of the anti-cyber website.
+          </p>
+          <div class="techList">TECHNOLOGY : HTML, CSS.</div>
+          <div class="btnLive">
+            <i class="faw fa-solid fa-magnifying-glass"></i>LIVE
+          </div>
+        </div>
+        <!-- <div class="projectContentDiv">
+          <h3>consectetur</h3>
+          <div>
+            <img class="img" src="images/img/4.jpg" alt="img" />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod
+          </p>
+          <div class="btnLive">
+            <i class="faw fa-solid fa-magnifying-glass"></i>LIVE
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="contactSection">
+      <div class="contactHeader">
+        <h1>CONTACT</h1>
+      </div>
+      <div class="underlineDiv"></div>
+      <div class="contactSectionParagraphDiv">
+        <p>Have a question or want to work together?</p>
+      </div>
+      <!-- MAIN FLEX OR GRID CONTAINER -->
+      <div class="contactLinkDiv">
+        <!-- CONTACT DIV -->
+        <div class="contactDiv">
+
+          <form action="mailto:esselduke@gmail.com">
+            <div>
+              <input class="input" type="text" placeholder="Name" />
+              <input class="input" type="email" placeholder="Enter email" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <input class="btn" type="submit" />
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footerIcons">
+        <div class="square">
+          <i class="animateUp fa-brands fa-github"></i>
+        </div>
+        <div class="square">
+          <i class="animateUp fa-brands fa-linkedin"></i>
+        </div>
+        <div class="square">
+          <i class="animateUp fa-brands fa-instagram"></i>
+        </div>
+        <div class="square">
+          <i class="animateUp fa-brands fa-twitter"></i>
+        </div>
+      </div>
+      <p>DUKE ESSEL, COPYRIGHT <span>©2022</span></p>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

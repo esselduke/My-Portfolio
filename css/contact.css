@@ -1,0 +1,124 @@
+#contactSection {
+  background-color: #fffffe;
+  padding-top: 100px;
+}
+.contactLinkDiv {
+  display: grid;
+  padding-bottom: 100px;
+}
+.contactDiv {
+  margin: 0 auto;
+  width: 30rem;
+}
+.linkDiv div {
+  display: flex;
+  align-items: center;
+}
+.linkDiv div div {
+  background-color: #24435a;
+  color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+}
+.backgroundConainerFa {
+  margin: 30px;
+}
+.contactHeader {
+  text-align: center;
+}
+.contactHeader h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #24435a;
+}
+.contactSectionParagraphDiv {
+  text-align: center;
+  margin: 35px 0 70px 0;
+  color: #24435a;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+form {
+  text-align: center;
+}
+form div {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+form .input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #24435a;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-family: "Cutive Mono", monospace;
+}
+form textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #24435a;
+  padding: 10px 15px;
+  height: 170px;
+  font-size: 1rem;
+  font-family: "Cutive Mono", monospace;
+}
+.btn {
+  border: 2px solid #24435a;
+  padding: 10px 30px;
+  background-color: transparent;
+  margin: 5px auto 0;
+  transition: ease-in-out 0.3s;
+  font-family: "Alkalami", serif;
+}
+.btn:hover {
+  background-color: #245a56;
+  color: #fffffe;
+}
+footer {
+  background-color: rgb(14, 26, 35);
+  padding: 100px 0;
+}
+footer p {
+  color: #8f9aa7;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 13px;
+}
+footer span {
+  color: #245a56;
+}
+.footerIcons {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.square {
+  background-color: #245a56;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+}
+.square:hover {
+  background-color: #24435a;
+}
+@media (max-width: 570px) {
+  .contactDiv {
+    width: 27rem;
+  }
+}
+@media (max-width: 500px) {
+  .contactDiv {
+    width: 24rem;
+  }
+}

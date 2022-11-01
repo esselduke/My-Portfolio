@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+#skillSection {
+  background-color: #fffffe;
+}
+.divContHex {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 17rem);
+  justify-content: center;
+  margin: 70px 0 90px 0;
+}
+.hex {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 104px;
+  margin: 0 auto;
+}
+.hexStraight {
+  background-color: #24435a;
+  display: inline-block;
+  width: 60px;
+  height: 104px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 1;
+}
+.faIndex {
+  color: #fffffe;
+}
+.hexStraight::before {
+  content: "";
+  position: absolute;
+  width: 104px;
+  height: 60px;
+  background-color: #24435a;
+  transform: rotate(-30deg);
+}
+.hexStraight::after {
+  content: "";
+  position: absolute;
+  width: 104px;
+  height: 60px;
+  background-color: #24435a;
+  transform: rotate(30deg);
+}
+.skillHeadingDiv {
+  text-align: center;
+}
+.skillHeading {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-top: 100px;
+  color: #24435a;
+}
+#skillSection hr {
+  width: 70px;
+  margin: 25px auto;
+  border-width: 5px;
+  border-bottom: 0;
+  border-color: #000;
+}
+.skillContent {
+  text-align: center;
+}
+.skillContent h2 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 21px;
+  font-weight: 700;
+}
+.skillContent p {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-top: 5px;
+  width: 224px;
+}
+@media (max-width: 1290px) {
+  .divContHex {
+    display: grid;
+    grid-template-columns: repeat(2, 15rem);
+    gap: 10px;
+  }
+  .hex {
+    margin: 0 auto;
+  }
+  .three {
+    grid-row: 2;
+  }
+  .four {
+    grid-row: 2;
+  }
+}
+@media (max-width: 600px) {
+  .skillContent p {
+    font-size: 0.7rem;
+  }
+}
+.hexStraight {
+  background-color: #24435a;
+  display: inline-block;
+  width: 60px;
+  height: 104px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.faIndex {
+  z-index: 1;
+}
+.hexStraight::before {
+  content: "";
+  position: absolute;
+  width: 104px;
+  height: 60px;
+  background-color: #24435a;
+  transform: rotate(-30deg);
+}
+.hexStraight::after {
+  content: "";
+  position: absolute;
+  width: 104px;
+  height: 60px;
+  background-color: #24435a;
+  transform: rotate(30deg);
+}
+.skillMain {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.skillPercenages {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+.HTMLLoader {
+  background-color: #245a56;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
+.HTMLLoader::after {
+  content: "90%";
+  color: #000;
+  position: absolute;
+  left: 105%;
+  bottom: 3px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: lighter;
+}
+.cssLoader {
+  background-color: #245a56;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
+.cssLoader::after {
+  content: "90%";
+  color: #000;
+  position: absolute;
+  left: 105%;
+  bottom: 3px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: lighter;
+}
+.bootstrapLoader {
+  background-color: #245a56;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
+.bootstrapLoader::after {
+  content: "90%";
+  color: #000;
+  position: absolute;
+  left: 105%;
+  bottom: 3px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: lighter;
+}
+.javascriptLoader {
+  background-color: #245a56;
+  width: 85%;
+  height: 100%;
+  position: absolute;
+}
+.javascriptLoader::after {
+  content: "85%";
+  color: #000;
+  position: absolute;
+  left: 105%;
+  bottom: 3px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: lighter;
+}
+.jQueryLoader {
+  background-color: #245a56;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+}
+.jQueryLoader::after {
+  content: "70%";
+  color: #000;
+  position: absolute;
+  left: 105%;
+  bottom: 3px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: lighter;
+}
+.nodejsLoader {
+  background-color: #245a56;
+  width: 40%;
+  height: 100%;
+  position: absolute;
+}
+.nodejsLoader::after {
+  content: "40%";
+  color: #000;
+  position: absolute;
+  left: 105%;
+  bottom: 3px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: lighter;
+}
+.reactLoader {
+  background-color: #245a56;
+  width: 19%;
+  height: 100%;
+  position: absolute;
+}
+.reactLoader::after {
+  content: "19%";
+  color: #000;
+  position: absolute;
+  left: 105%;
+  bottom: 3px;
+  font-family: "Comforter Brush", cursive;
+  font-weight: lighter;
+}
+.innerLoader {
+  position: absolute;
+  height: 100%;
+  width: 120px;
+  background-color: #24435a;
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.entireWidth {
+  width: 670px;
+  height: 28px;
+  background-color: #eee;
+  position: relative;
+  margin-bottom: 15px;
+}
+.fw {
+  margin-right: auto;
+  margin-left: 10px;
+}
+.skillPercenages p {
+  margin-right: 20px;
+}
+@media (max-width: 800px) {
+  .entireWidth {
+    width: 500px;
+  }
+  .nodejsLoader {
+    width: 46%;
+  }
+  .reactLoader {
+    width: 25%;
+  }
+}
+@media (max-width: 570px) {
+  .entireWidth {
+    width: 400px;
+  }
+  .nodejsLoader {
+    width: 50%;
+  }
+  .reactLoader {
+    width: 31%;
+  }
+}

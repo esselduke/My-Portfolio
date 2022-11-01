@@ -1,0 +1,109 @@
+#portfolioSection {
+  background-color: #ededed;
+  padding: 100px 0;
+}
+.headerDiv {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.headerDiv h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #24435a;
+}
+.underlineDiv {
+  width: 90px;
+  margin: 20px auto;
+  height: 5px;
+  background-color: #24435a;
+}
+.projectsMainDivGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin: auto;
+  max-width: 60rem;
+}
+.projectContentDiv h3 {
+  color: #24435a;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-family: "Alkalami", serif;
+}
+.projectContentDiv p {
+  color: #24435a;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: "Alkalami", serif;
+  height: 120px;
+}
+.img {
+  max-width: 450px;
+  max-height: 250px;
+  border-radius: 20px;
+}
+.projectContentDiv {
+  width: 100%;
+  margin: auto;
+}
+.btnLive {
+  border: 2px solid #24435a;
+  padding: 10px 30px;
+  background-color: transparent;
+  margin: 40px auto 30px;
+  transition: ease-in-out 0.3s;
+  font-family: "Alkalami", serif;
+  width: 130px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.btnLive:hover {
+  background-color: #245a56;
+  color: #fffffe;
+}
+.faw {
+  margin-right: 10px;
+}
+@media (max-width: 1100px) {
+  .projectsMainDivGrid {
+    grid-template-columns: repeat(1, 30rem);
+    text-align: center;
+    max-width: 30rem;
+  }
+  .projectContentDiv {
+    margin: 10px auto;
+  }
+}
+@media (max-width: 760px) {
+  .projectContentDiv h3 {
+    font-size: 1.6rem;
+  }
+  .projectContentDiv p {
+    font-size: 1rem;
+    max-width: 450px;
+  }
+  .img {
+    max-width: 400px;
+    max-height: 200px;
+  }
+  .projectContentDiv {
+    max-width: 410px;
+    margin: auto;
+  }
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
+}
+.techList {
+  color: #24435a;
+  font-size: 1.3rem;
+  font-family: "Alkalami", serif;
+}
