@@ -96,3 +96,9 @@ window.addEventListener("scroll", function () {
   document.querySelectorAll(".square")[0].addEventListener("click", () => {
     window.location.href = "https://github.com/esselduke?tab=repositories";
   });
+document.querySelector(".linkedinLogo").addEventListener("click", () => {
+  window.location.href = "https://www.linkedin.com/in/duke-essel-0501ba19b/";
+});
+document.querySelector(".gitLogo").addEventListener("click", () => {
+  window.location.href = "https://github.com/esselduke?tab=repositories";
+});
