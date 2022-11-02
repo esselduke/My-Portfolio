@@ -9,7 +9,7 @@ function sideMenuVan() {
 }
 document.querySelector(".toTheTopBtnContainer").style.opacity = "0";
 window.addEventListener("scroll", function () {
-  if (this.scrollY < 100) {
+  if (this.scrollY < 500) {
     document.querySelector(".toTheTopBtnContainer").style.opacity = "0";
   } else {
     document.querySelector(".toTheTopBtnContainer").style.opacity = "0.5";
