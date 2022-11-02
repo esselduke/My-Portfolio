@@ -7,6 +7,7 @@ function toggleMenu() {
 function sideMenuVan() {
   document.querySelector(".sideMenu").classList.toggle("sideMenuSlide");
 }
+document.querySelector(".toTheTopBtnContainer").style.opacity = "0";
 window.addEventListener("scroll", function () {
   if (this.scrollY < 100) {
     document.querySelector(".toTheTopBtnContainer").style.opacity = "0";
