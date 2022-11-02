@@ -8,7 +8,7 @@
   background-color: #fffffe;
 }
 .divContHex {
-  gap: 30px;
+  gap: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 104px;
+  max-width: 224px;
   margin: 0 auto;
 }
 .hexStraight {
@@ -69,6 +69,7 @@
 }
 .skillContent {
   text-align: center;
+  width: 100%;
 }
 .skillContent h2 {
   text-align: center;
@@ -81,7 +82,8 @@
   font-weight: lighter;
   line-height: 1.5;
   margin-top: 5px;
-  width: 224px;
+  max-width: 224px;
+  width: 100%;
 }
 @media (max-width: 1290px) {
   .divContHex {
@@ -139,7 +141,7 @@
 .skillPercenages {
   display: inline-block;
   margin: 0 auto;
-  max-width: 90%;
+  /* max-width: 90%; */
 }
 .HTMLLoader {
   background-color: #245a56;
@@ -151,7 +153,7 @@
   content: "90%";
   color: #000;
   position: absolute;
-  left: 105%;
+  left: 102%;
   bottom: 3px;
   font-family: "Comforter Brush", cursive;
   font-weight: lighter;
@@ -166,7 +168,7 @@
   content: "90%";
   color: #000;
   position: absolute;
-  left: 105%;
+  left: 102%;
   bottom: 3px;
   font-family: "Comforter Brush", cursive;
   font-weight: lighter;
@@ -181,7 +183,7 @@
   content: "90%";
   color: #000;
   position: absolute;
-  left: 105%;
+  left: 102%;
   bottom: 3px;
   font-family: "Comforter Brush", cursive;
   font-weight: lighter;
@@ -196,7 +198,7 @@
   content: "85%";
   color: #000;
   position: absolute;
-  left: 105%;
+  left: 102%;
   bottom: 3px;
   font-family: "Comforter Brush", cursive;
   font-weight: lighter;
@@ -211,22 +213,22 @@
   content: "70%";
   color: #000;
   position: absolute;
-  left: 105%;
+  left: 102%;
   bottom: 3px;
   font-family: "Comforter Brush", cursive;
   font-weight: lighter;
 }
 .nodejsLoader {
   background-color: #245a56;
-  width: 40%;
+  width: 50%;
   height: 100%;
   position: absolute;
 }
 .nodejsLoader::after {
-  content: "40%";
+  content: "50%";
   color: #000;
   position: absolute;
-  left: 105%;
+  left: 102%;
   bottom: 3px;
   font-family: "Comforter Brush", cursive;
   font-weight: lighter;
@@ -241,7 +243,7 @@
   content: "19%";
   color: #000;
   position: absolute;
-  left: 105%;
+  left: 102%;
   bottom: 3px;
   font-family: "Comforter Brush", cursive;
   font-weight: lighter;
@@ -259,6 +261,7 @@
 }
 .entireWidth {
   width: 670px;
+
   height: 28px;
   background-color: #eee;
   position: relative;
@@ -276,7 +279,7 @@
     width: 500px;
   }
   .nodejsLoader {
-    width: 46%;
+    width: 56%;
   }
   .reactLoader {
     width: 25%;
@@ -287,9 +290,15 @@
     width: 400px;
   }
   .nodejsLoader {
-    width: 50%;
+    width: 60%;
   }
   .reactLoader {
     width: 31%;
+  }
+}
+
+@media (max-width: 500px) {
+  .entireWidth {
+    width: 350px;
   }
 }
