@@ -8,15 +8,11 @@ function sideMenuVan() {
   document.querySelector(".sideMenu").classList.toggle("sideMenuSlide");
 }
 window.addEventListener("scroll", function () {
-  (document.querySelector(".toTheTopBtnContainer").style.opacity = "0.5"),
-    setTimeout(() => {
-      document.querySelector(".toTheTopBtnContainer").style.opacity = "1";
-    }, 200),
-    this.scrollY > 100
-      ? document.querySelector(".toTheTopBtnContainer").classList.add("active")
-      : document
-          .querySelector(".toTheTopBtnContainer")
-          .classList.remove("active");
+  if (this.scrollY < 100) {
+    document.querySelector(".toTheTopBtnContainer").style.opacity = "0";
+  } else {
+    document.querySelector(".toTheTopBtnContainer").style.opacity = "0.5";
+  }
 }),
   document
     .querySelector(".toTheTopBtnContainer")
