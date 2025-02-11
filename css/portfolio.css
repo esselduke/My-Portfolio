@@ -82,6 +82,7 @@
     margin: 10px auto;
   }
 }
+
 @media (max-width: 760px) {
   .projectContentDiv h3 {
     font-size: 1.6rem;
