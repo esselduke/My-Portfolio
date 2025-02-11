@@ -124,9 +124,10 @@ footer span {
 }
 @media (max-width: 500px) {
   .btn {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    text-align: center;
+    width: 100% !important;
+    padding: 10px !important;
+    font-size: 1rem !important;
+    text-align: center !important;
+    color: #24435a !important; /* Ensure text color is set */
   }
 }
