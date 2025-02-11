@@ -433,3 +433,35 @@ nav span {
   width: 100%;
   color: #fffffe;
 }
+
+/* SKILLS BAR UPDATE*/
+.skill-bar {
+  width: 0;
+  height: 20px;
+  background-color: #3498db;
+  transition: width 0.5s;
+}
+
+.htmlLoader .innerLoader {
+  background-color: #e34c26;
+}
+
+.cssLoader .innerLoader {
+  background-color: #264de4;
+}
+
+.javascriptLoader .innerLoader {
+  background-color: #f0db4f;
+}
+
+.jQueryLoader .innerLoader {
+  background-color: #0769ad;
+}
+
+.bootstrapLoader .innerLoader {
+  background-color: #563d7c;
+}
+
+.nodejsLoader .innerLoader {
+  background-color: #68a063;
+}
