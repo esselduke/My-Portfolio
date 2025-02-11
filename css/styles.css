@@ -400,21 +400,7 @@ nav span {
     color: #7eb5a6;
   }
 }
-@media (max-width: 1140px) {
-  .toTheTopBtnContainer {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 90%;
-  }
-}
-@media (max-width: 790px) {
-  .toTheTopBtnContainer {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 90%;
-  }
-}
-@media (max-width: 500px) {
+@media (max-width: 1140px), (max-width: 790px), (max-width: 500px) {
   .toTheTopBtnContainer {
     left: 50%;
     transform: translateX(-50%);
