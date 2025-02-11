@@ -112,22 +112,18 @@ footer span {
 .square:hover {
   background-color: #24435a;
 }
-@media (max-width: 570px) {
-  .contactDiv {
-    width: 27rem;
-  }
-}
-@media (max-width: 500px) {
+@media (max-width: 570px), (max-width: 500px) {
   .contactDiv {
     width: 24rem;
   }
 }
+
 @media (max-width: 500px) {
   .btn {
     width: 100% !important;
     padding: 10px !important;
     font-size: 1rem !important;
     text-align: center !important;
-    color: #24435a !important; /* Ensure text color is set */
+    color: #24435a !important;
   }
 }
