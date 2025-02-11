@@ -68,3 +68,16 @@ document.querySelectorAll(".btnLive").forEach((btn, index) => {
     window.location.href = projectLinks[index];
   });
 });
+
+const skills = [
+  { name: "HTML", percent: 51.6 },
+  { name: "CSS", percent: 51.6 },
+  { name: "JavaScript", percent: 12.6 },
+  { name: "jQuery", percent: 10 },
+  { name: "Bootstrap", percent: 8 }, 
+  { name: "Node.js", percent: 5 } 
+];
+
+skills.forEach(skill => {
+  document.querySelector(`.${skill.name.toLowerCase()}-bar`).style.width = `${skill.percent}%`;
+});
