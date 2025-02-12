@@ -69,14 +69,6 @@ document.querySelectorAll(".btnLive").forEach((btn, index) => {
   });
 });
 
-const skills = [
-  { name: "HTML", percent: 51.6 },
-  { name: "CSS", percent: 51.6 },
-  { name: "JavaScript", percent: 12.6 },
-  { name: "jQuery", percent: 10 },
-  { name: "Bootstrap", percent: 8 }, 
-  { name: "Node.js", percent: 5 } 
-];
 
 const skills = [
   { name: "HTML", percent: 51.6 },
