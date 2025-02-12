@@ -78,6 +78,15 @@ const skills = [
   { name: "Node.js", percent: 5 } 
 ];
 
+const skills = [
+  { name: "HTML", percent: 51.6 },
+  { name: "CSS", percent: 51.6 },
+  { name: "JavaScript", percent: 12.6 },
+  { name: "jQuery", percent: 10 }, // Adjust as needed
+  { name: "Bootstrap", percent: 8 }, // Adjust as needed
+  { name: "Node.js", percent: 5 } // Adjust as needed
+];
+
 skills.forEach(skill => {
-  document.querySelector(`.${skill.name.toLowerCase()}-bar`).style.width = `${skill.percent}%`;
+  document.querySelector(`.${skill.name.toLowerCase()}Loader .innerLoader`).style.width = `${skill.percent}%`;
 });
