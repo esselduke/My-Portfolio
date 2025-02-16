@@ -79,7 +79,7 @@ window.addEventListener("scroll", function () {
     window.location.href = "https://github.com/esselduke?tab=repositories";
   }),
   document.querySelector(".linkedinLogo").addEventListener("click", () => {
-    window.location.href = "https://www.linkedin.com/in/david-duke-essel";
+    window.location.href = "https://www.linkedin.com/in/david-duke-essel?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0P1KLHX3SVqsto5DWM93mA%3D%3D";
   }),
   document.querySelectorAll(".square")[3].addEventListener("click", () => {
     window.location.href = "https://twitter.com/DukeEssel_";
@@ -88,13 +88,13 @@ window.addEventListener("scroll", function () {
     window.location.href = "https://www.instagram.com/dukeessel_/";
   }),
   document.querySelectorAll(".square")[1].addEventListener("click", () => {
-    window.location.href = "https://www.linkedin.com/in/david-duke-essel";
+    window.location.href = "https://www.linkedin.com/in/david-duke-essel?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0P1KLHX3SVqsto5DWM93mA%3D%3D";
   }),
   document.querySelectorAll(".square")[0].addEventListener("click", () => {
     window.location.href = "https://github.com/esselduke?tab=repositories";
   });
 document.querySelector(".linkedinLogo").addEventListener("click", () => {
-  window.location.href = "https://www.linkedin.com/in/david-duke-essel";
+  window.location.href = "https://www.linkedin.com/in/david-duke-essel?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0P1KLHX3SVqsto5DWM93mA%3D%3D";
 });
 document.querySelector(".gitLogo").addEventListener("click", () => {
   window.location.href = "https://github.com/esselduke?tab=repositories";
